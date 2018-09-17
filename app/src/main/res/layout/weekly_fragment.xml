@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="5dp">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:id="@+id/weekly_zodic"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="10dp"
+           android:hint="Weekly Fragment"
+           android:textColorHint="@color/textViewColor2"
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:textColor="@color/textViewColor2" />
+   </ScrollView>
+
+</LinearLayout>

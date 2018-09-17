@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/horo_main_menu"
+            android:title="Horoscope"
+            android:icon="@drawable/home_nav">
+        </item>
+
+        <item android:id="@+id/age_calculator_id"
+            android:title="Age and zodic Calculator"
+            android:icon="@drawable/age_calculator">
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/nav_share"
+                android:title="Share">
+            </item>
+        </menu>
+    </item>
+
+</menu>

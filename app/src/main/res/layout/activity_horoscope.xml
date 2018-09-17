@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoroscopeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <android.support.design.widget.AppBarLayout
+        android:background="@drawable/kesiy"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:elevation="0dp"
+        android:gravity="center"
+        android:id="@+id/appBar_id">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:src="@drawable/scorpio"
+            android:id="@+id/img_view_id"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Title Horoscope"
+            android:textSize="25sp"
+            android:textColor="@color/textViewColor"
+            android:textStyle="bold"
+            android:id="@+id/title_hid"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="dd/mm/yyyy"
+            android:textSize="20sp"
+            android:textColor="@color/textViewColor"
+            android:textStyle="bold"
+            android:id="@+id/date_hid"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:id="@+id/tablayout_id"
+        app:tabTextColor="@color/textViewColor"
+        app:tabIndicatorColor="@color/textViewColor2"
+        app:tabSelectedTextColor="@color/textViewColor2"/>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager_id">
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>

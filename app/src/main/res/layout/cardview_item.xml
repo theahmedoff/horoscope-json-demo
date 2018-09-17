@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/cardview_id"
+    android:clickable="true"
+    android:layout_width="95dp"
+    android:layout_height="120dp"
+    cardview:cardCornerRadius="5dp"
+    android:layout_marginLeft="13dp"
+    android:layout_marginTop="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg">
+
+        <ImageView
+            android:id="@+id/horoscope_img_id"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            cardview:srcCompat="@drawable/scorpio" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="Title"
+            android:gravity="center"
+            android:textColor="@color/textViewColor"
+            android:textStyle="bold"
+            android:id="@+id/horoscope_title_id"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

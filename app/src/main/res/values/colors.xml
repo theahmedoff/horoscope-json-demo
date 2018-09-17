@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#161c39</color>
+    <color name="colorPrimaryDark">#141b43</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cardviewItem">#531986</color>
+    <color name="textViewColor">#3ecfef</color>
+    <color name="textViewColor2">#d21235</color>
+    <color name="tabindigatorColor">#141b43</color>
+    <color name="navigation_bar">#243160</color>
+    <color name="navigation_header">#192b6c</color>
+    <color name="navigation_text_color">#31c4ae</color>
+
+    //Age Calculator coloor
+    <color name="ac_text_color">#d9cf0d</color>
+
+
+
+</resources>
